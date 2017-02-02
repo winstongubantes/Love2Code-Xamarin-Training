@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/3 Xamarin and Cognitive/TravelAppBot/packages
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppBot/bin
+*.suo
+/3 Xamarin and Cognitive/TravelAppBot/.vs/config
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppBot/obj
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppBot/Properties/PublishProfiles
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile/bin/Debug
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile/obj
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile.Droid/bin/Debug
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile.Droid/obj
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile.iOS/obj/iPhone
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile.UWP/obj/x86
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile.Windows/obj
+/3 Xamarin and Cognitive/TravelAppBot/TravelAppMobile/TravelAppMobile.WinPhone/obj
