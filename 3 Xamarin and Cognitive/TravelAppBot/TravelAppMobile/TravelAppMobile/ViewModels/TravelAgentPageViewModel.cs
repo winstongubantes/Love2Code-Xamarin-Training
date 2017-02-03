@@ -34,7 +34,7 @@ namespace TravelAppMobile.ViewModels
             {
                 Message = "Hi this is travel agent, how may i help you?",
                 FromUser = "Bot",
-                UserImageUrl = "icon.png"
+                UserImageUrl = "customer_service.png"
             });
         }
 
@@ -68,7 +68,7 @@ namespace TravelAppMobile.ViewModels
                     {
                         FromUser = "Me",
                         Message = TextMessage,
-                        UserImageUrl = "icon.png"
+                        UserImageUrl = "me_user.png"
                     });
 
                     IsRefreshing = true;
@@ -77,14 +77,17 @@ namespace TravelAppMobile.ViewModels
 
                     TextMessage = "";
 
-                    var msgItem = reply.Messages.Last();
+                    Messages.Clear();
 
-                    Messages.Add(new ConversationMessage
+                    foreach (var msgItem in reply.Messages)
                     {
-                        FromUser = "bot",
-                        Message = msgItem.Text,
-                        UserImageUrl = "icon.png"
-                    });
+                        Messages.Add(new ConversationMessage
+                        {
+                            FromUser = msgItem.From,
+                            Message = msgItem.Text,
+                            UserImageUrl = msgItem.From == "travelappbot"?  "customer_service.png" : "me_user.png"
+                        });
+                    }
 
                     IsRefreshing = false;
                 });

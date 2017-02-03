@@ -12,11 +12,17 @@
                HorizontalOptions="FillAndExpand" 
                VerticalOptions="FillAndExpand">
     
-    <ListView ItemsSource="{Binding Messages}" IsPullToRefreshEnabled="True" IsRefreshing="{Binding IsRefreshing }">
+    <ListView ItemsSource="{Binding Messages}" 
+              Margin="10"
+              HasUnevenRows="True"
+              IsPullToRefreshEnabled="True" 
+              IsRefreshing="{Binding IsRefreshing }">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal">
+            <StackLayout HorizontalOptions="FillAndExpand" 
+                         VerticalOptions="FillAndExpand" 
+                         Orientation="Horizontal">
               <Image Source="{Binding UserImageUrl}"></Image>
               <Label Text="{Binding Message}"></Label>
             </StackLayout>
