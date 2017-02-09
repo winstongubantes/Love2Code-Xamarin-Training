@@ -1,6 +1,6 @@
 # Enterprise Mobile App Development Workshop with Visual Studio and Xamarin
 
-![EnterpriseDev](https://raw.githubusercontent.com/mjtpena/Xamarin-Training/master/Assets/EnterpriseMobileApp.png)
+![EnterpriseDev](https://github.com/winstongubantes/Love2Code-Xamarin-Training/blob/master/Assets/EnterpriseMobileApp.png)
 
 Visual Studio and Xamarin provide developers with the best-in-class tools to deliver native Android, iOS, and Windows apps, using their existing .NET skills, teams, and code. 
 You and your team (maximum of 3 members) are invited to join our Enterprise Mobile App Dev Workshop, an instructor-led session where we will explore building rich mobile applications on the Xamarin platform.
@@ -17,7 +17,6 @@ In this session, you’ll learn how to:
 * [Xamarin and Azure App Service](https://github.com/winstongubantes/Love2Code-Xamarin-Training/tree/master/2%20Xamarin%20and%20Azure)
 * [Xamarin and Microsoft Cognitive Services](https://github.com/winstongubantes/Love2Code-Xamarin-Training/tree/master/3%20Xamarin%20and%20Cognitive)
 
-Video OneDrive URL: https://1drv.ms/f/s!Ao62ZfLQbfLKjvVUrg5GMl5wcS6s-A
 
 ##Pre-Requisites
 ### Mac OSX
