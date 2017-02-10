@@ -13,7 +13,7 @@ namespace ConversationApp
         {
             InitializeComponent();
 
-            MainPage = new ConversationPage();
+            MainPage = new NavigationPage(new ConversationPage());
         }
 
         protected override void OnStart()
